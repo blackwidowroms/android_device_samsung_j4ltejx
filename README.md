@@ -68,4 +68,4 @@ How to build LineageOS
 
 * Build LineageOS
 
-        m -j20 bacon
+        m -j20 j4ltejx
