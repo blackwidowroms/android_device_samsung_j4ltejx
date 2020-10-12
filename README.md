@@ -1,4 +1,4 @@
-# LineageOS device tree for the Samsung Galaxy S10
+# LineageOS device tree for the Samsung Galaxy J4
 
 Description
 -----------
@@ -25,8 +25,8 @@ How to build LineageOS
         <manifest>
             <project name="blackwidowroms/android_device_samsung_j4ltejx" path="device/samsung/j4ltejx" />
             <project name="blackwidowroms/android_device_samsung_exynos7570-common" path="device/samsung/exynos7570-common" remote="github" />
-            <project name="whatawurst/android_kernel_samsung_exynos7570" path="kernel/samsung/exynos9820" remote="github" />
-            <project name="whatawurst/android_vendor_samsung_7570" path="vendor/samsung/j4ltejx" remote="github" />
+            <project name="blackwidowroms/android_kernel_samsung_exynos7570" path="kernel/samsung/exynos7570" remote="github" />
+            <project name="blackwidowroms/android_vendor_samsung_7570" path="vendor/samsung/j4ltejx" remote="github" />
             <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
 	    <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
         </manifest>
@@ -37,13 +37,13 @@ How to build LineageOS
 
 * Extract vendor blobs
 
-        cd device/samsung/beyond1lte
+        cd device/samsung/j4ltejx
         ./extract-files.sh
 
 * Setup the environment
 
         source build/envsetup.sh
-        lunch lineage_beyond1lte-userdebug
+        lunch lineage_j4ltejx-userdebug
 
 * Build LineageOS
 
