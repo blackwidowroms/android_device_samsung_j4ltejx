@@ -3,7 +3,7 @@
 Description
 -----------
 
-This repository is to build LineageOS for the S10 (SM-G973F)
+This repository is to build LineageOS for the J4 (SM-J400M/F)
 
 How to build LineageOS
 ----------------------
