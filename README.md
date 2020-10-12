@@ -4,6 +4,27 @@ Description
 -----------
 
 This repository is to build LineageOS for the J4 (SM-J400M/F)
+## Spec Sheet
+
+| Feature                 | Specification                     |
+| :---------------------- | :-------------------------------- |
+| CPU                     | Quad-core 1.4 GHz Cortex-A53      |
+| Chipset                 | Exynos 7570                       |
+| GPU                     | Mali-T720 MP2                     |
+| Memory                  | 2GB	                              |
+| Shipped Android Version | 8.1.0                             |
+| Storage                 | 16 GB                             |
+| MicroSD                 | Up to 256 GB                      |
+| Battery                 | 3000 mAh (removable)              |
+| Dimensions              | 151.7 x 77.2 x 8.1 mm             |
+| Display                 | 720 x 1280 pixels,5.5(~267 PPI)     |
+| Rear Camera             | 13 MP, LED flash                  |
+| Front Camera            | 5 MP                              |
+| Release Date            | May 2018                          |
+
+## Device Picture
+
+![Galaxy J4+](https://prods.tugadgetshop.com/350/samsung-galaxy-j4-color-negro-frontal.jpg "Galaxy J4"
 
 How to build LineageOS
 ----------------------
