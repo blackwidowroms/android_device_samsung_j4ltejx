@@ -24,7 +24,7 @@ This repository is to build LineageOS for the J4 (SM-J400M/F)
 
 ## Device Picture
 
-![Galaxy J4](https://prods.tugadgetshop.com/350/samsung-galaxy-j4-color-negro-frontal.jpg) "Galaxy J4"
+![Galaxy J4](https://prods.tugadgetshop.com/350/samsung-galaxy-j4-color-negro-frontal.jpg) 
 
 How to build LineageOS
 ----------------------
