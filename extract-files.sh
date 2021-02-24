@@ -17,8 +17,16 @@
 
 set -e
 
-VENDOR=samsung
-DEVICE=j4lte
+# Required!
+export DEVICE=j4lte
+export DEVICE_COMMON=universal7570-common
+export VENDOR=samsung
+
+export DEVICE_BRINGUP_YEAR=2018
+
+"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+
+BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
