@@ -18,6 +18,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 TARGET_VENDOR := samsung
 TARGET_VENDOR_PRODUCT_NAME := j4lte
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="j4ltejx-user 9 PPR1.180610.011 J400FXXU4BSJ3 release-keys"
-
+#Havoc Initialize
+export HAVOC_BUILD_TYPE=Official
+HAVOC_MAINTAINER := BlackRomsDev
+HAVOC_GROUP_URL := https://t.me/havoc9810
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := samsung/j4ltejx/j4lte:9/PPR1.180610.011/J400FXXU4BSJ3:user/release-keys
